@@ -14,10 +14,10 @@
         @include('includes.mensaje')
         <div class="card card-navy">
             <div class="card-header">
-            <h3 class="card-title"><b>ADMINISTRACION</b> | USUARIOS</h3>
+            <h3 class="card-title"><b>MODULO DE ADMINISTRACION</b> | USUARIOS</h3>
                 <div class="card-tools">
                     <a href="{{route("crear_usuario")}}" class="btn btn-outline-primary">
-                        <i class="fa fa-fw fa-plus-circle"></i> Crear Usuario
+                        <i class="fa fa-fw fa-plus-circle"></i> Nuevo Registro
                     </a>
                 </div>
                 </div>
