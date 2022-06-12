@@ -1,6 +1,6 @@
 @extends("theme.$theme.layout")
 @section('titulo')
-    USUARIOS
+    EDITAR USUARIOS
 @endsection
 
 @section("styles")
@@ -14,7 +14,7 @@
 @endsection
 
 @section("scripts")
-<script src="{{asset("assets/pages/scripts/admin/usuario/crear.js")}}" type="text/javascript"></script>
+<script src="{{asset("assets/pages/scripts/admin/usuario/editar.js")}}" type="text/javascript"></script>
 @endsection
 
 @section('contenido')
