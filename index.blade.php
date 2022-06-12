@@ -4,7 +4,7 @@
 @endsection
 
 @section("scripts")
-<script src="{{asset("assets/pages/scripts/admin/index.js")}}" type="text/javascript"></script>
+<script src="{{asset("assets/pages/scripts/admin/Eliminar.js")}}" type="text/javascript"></script>
 @endsection
 
 @section('contenido')
