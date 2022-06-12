@@ -17,21 +17,21 @@
 <script src="{{asset("assets/pages/scripts/admin/usuario/crear.js")}}" type="text/javascript"></script>
 @endsection
 
-@section('contenido')
+@section('contenido principal')
 <div class="row">
     <div class="col-lg-12">
         @include('includes.form-error')
         @include('includes.mensaje')        
         <div class="card card-navy">
             <div class="card-header">
-            <h3 class="card-title"><b>Administracion </b> | Crear Usuario</h3>
+            <h3 class="card-title"><b>Administracion </b> | Crear Nuevo Usuario</h3>
                 <div class="card-tools">
                     <a href="{{route("usuario")}}" class="btn btn-outline-primary">
                         <i></i>Volver
                     </a>
                 </div>
             </div>
-            <form action="{{route('guardar_usuario')}}" id="form-general" class="form-horizontal form--label-right" method="POST" autocomplete="off" enctype="multipart/form-data">
+            <form action="{{route('guardarUsuario')}}" id="form-general" class="form-horizontal form--label-right" method="POST" autocomplete="off" enctype="multipart/form-data">
                 @csrf
                 <div class="card-body">
                     @include('ADMINISTRACION.usuario.form')
