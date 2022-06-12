@@ -1,6 +1,6 @@
 @extends("theme.$theme.layout")
 @section('titulo')
-    USUARIOS
+    ACTIVAR USUARIOS
 @endsection
 
 @section("styles")
@@ -14,7 +14,7 @@
 @endsection
 
 @section("scripts")
-<script src="{{asset("assets/pages/scripts/admin/usuario/crear.js")}}" type="text/javascript"></script>
+<script src="{{asset("assets/pages/scripts/admin/usuario/Activar.js")}}" type="text/javascript"></script>
 @endsection
 
 @section('contenido')
@@ -24,7 +24,7 @@
         @include('includes.mensaje')        
         <div class="card card-navy">
             <div class="card-header">
-            <h3 class="card-title"><b>Administracion </b> | Crear Usuario</h3>
+            <h3 class="card-title"><b>Administracion </b> | Activar Usuario</h3>
                 <div class="card-tools">
                     <a href="{{route("usuario")}}" class="btn btn-outline-primary">
                         <i></i>Volver
